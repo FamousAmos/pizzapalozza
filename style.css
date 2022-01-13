@@ -1,8 +1,9 @@
 body {
+  background-color: #ffffff;
   padding: 0;
   margin: 0;
   text-align: center;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -13,8 +14,11 @@ ul {
   gap: 16px;
 }
 
-a {
+.right a {
   text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 10px;
 }
 
 .header,
@@ -32,11 +36,17 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: #f9fafb;
+  padding: 20px 0px 20px 200px;
 }
 
 .left {
-  display: flex;
-  justify-content: flex-start;
   font-size: 24px;
-  color: #f9fafb;
+  margin-right: auto;
+}
+
+.right {
+  display: flex;
+  margin-left: auto;
+  padding-right: 100px;
 }
