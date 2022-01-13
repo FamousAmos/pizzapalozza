@@ -14,6 +14,16 @@ ul {
   gap: 16px;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+button {
+  background-color: #3882f6;
+}
+
 .right a {
   text-decoration: none;
   color: #e5e7eb;
@@ -57,4 +67,27 @@ ul {
   align-items: center;
   justify-content: center;
   padding: 100px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+  flex-basis: 400px;
+}
+
+.hero button {
+  display: block;
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.hero-img img {
+  width: 500px;
+  height: 350px;
 }
