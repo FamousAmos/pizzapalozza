@@ -26,6 +26,12 @@ h2 {
   color: #1f2937;
 }
 
+h3 {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0px;
+  margin-bottom: 0px;
+}
 button {
   background-color: #3882f6;
 }
@@ -133,7 +139,7 @@ button {
 
 .quote p {
   font-size: 36px;
-  font-weight: lighter;
+  font-weight: 100;
   font-style: italic;
   color: #1f2937;
 }
@@ -141,4 +147,38 @@ button {
 .quote b {
   text-align: right;
   font-size: 20px;
+}
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+  margin: 100px 200px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 40px 100px;
+}
+
+.cta-text {
+  text-align: left;
+  margin-right: auto;
+}
+
+.cta-text p {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.call-to-action button {
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 8px;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer {
+  color: #ffffff;
+  padding: 20px;
+  font-size: 16px;
 }
